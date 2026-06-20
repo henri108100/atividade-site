@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "mmiuan";
+    src: url("../assets/fonts/MMiuan.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "leander";
+    src: url("../assets/fonts/Leander.ttf") format("truetype"); 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 5px;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section {
+    scroll-margin-top: 15px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

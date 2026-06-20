@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "americanwestern";
+    src: url("../assets/fonts/American\ Western.ttf") format("truetype"); 
+}
+
+body {
+    background-image: url("../assets/images/background-texture.jpg");
+    background-repeat: repeat;
+    font-family: "leander";
+}
+
+nav {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+header {
+    height: 170px;
+}
+
+a:hover {
+    font-weight:normal;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "americanwestern";
+    font-weight: normal;
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.btn-link {
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+}

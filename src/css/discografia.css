@@ -1,0 +1,35 @@
+.div-discografia {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+}
+
+ol, ul {
+    margin: 0px;   
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+li {
+    padding-top: 8px;
+}
+
+.faixas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.faixa {
+    width: 320px;
+    font-size: small;
+}
+
+.img-album {
+    height: 400px;
+    width: 400px;
+}
+
